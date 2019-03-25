@@ -1,0 +1,82 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+
+.button{
+    margin-top:20px;
+    padding-top: 20px;
+}
+.content_1{
+margin-top: 20px;
+}
+
+/* Banner */
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top:500px;
+}
+
+
+.separator{
+height: 3px;
+width: 5%;
+box-shadow: none;
+border:none;
+background-color: brown;
+}
+
+#about{
+    text-align: center;
+}
+
+.about article{
+    margin-top: 50px;
+}
+
+.about article h2{
+    text-align: center;
+   
+}
+
+.about article p{
+    text-align: center;
+}
+
+.top{
+    margin-top:30px;
+}
+.footer
+{
+    height: 80px;
+    color:#fff;
+    background-color: black;
+    text-align: center;
+}
+
+.slider-image{
+    height: 515px;
+    width: 1150px;
+}
