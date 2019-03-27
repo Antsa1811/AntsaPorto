@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css"  href="css/style.css">
-	<link rel="stylesheet" type="text/css"  href="css/less/styles.css">
+	<link rel="stylesheet" type="text/css"  href="css/less-compiler/css/styles.css">
 	
 </head>
 <body>
@@ -16,7 +16,7 @@
 			<a href="#" class="navbar-brand">Mon portofolio</a>
 			<boutton class="navbar-toggler" data-toggle="collapse" data-target="#nav" >
 				<span class="navbar-toggler-icon"></span>
-				</boutton>
+			</boutton>
 				<div class="collapse navbar-collapse" id="nav">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item" >
@@ -26,10 +26,10 @@
 							<a href="#propos" class="nav-link">A propos</a>
 						</li>
 						<li class="nav-item" >
-							<a href="#home" class="nav-link">Réalisations</a>
+							<a href="#realisation" class="nav-link">Réalisations</a>
 						</li>
 						<li class="nav-item" >
-							<a href="#home" class="nav-link">Contact</a>
+							<a href="#contact" class="nav-link">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -39,21 +39,25 @@
 
 
 	<section class="container-fluid banner " >
+		
 			<div class="ban">
-					<img src="img/banner.jpg" alt="Banner du site">
-			</div>
-					
-			<div class="inner-banner text-white">
-				<h2>Bienvenue sur mon porte folio</h2>
-						<p class="lead">Antsa Ratovoson , passioner du web qui se fait en metier</p>
-						<boutton class="btn btn-primary">Me contacter</boutton>
-			</div>	
+				<img src="img/banner.jpg" alt="Banner du site">
+				</div>
+				
+				<div class="container">
+				<div class="inner-banner text-white">
+					<h2>Bienvenue sur mon porte folio</h2>
+							<p class="lead">Antsa Ratovoson , passioner du web qui se fait en metier</p>
+							<boutton class="btn btn-primary">Me contacter</boutton>
+				</div>	
+		</div>
+		
 	</section>
 
 <!-- SECTION MA PROPOS -->
-<section class="about">
+<section id="propos" class="about topMargin">
 	<div class="container">
-			<h2 id="propos" class="text-center top" >Mon portofolio</h2>
+			<h2  class="text-center " >Mon portofolio</h2>
 			<hr class="separator">
 		<div class="row">
 			
@@ -80,8 +84,8 @@
 	</div>
 </section>
 
-<section class="realisation">
-	<div class="text-center">
+<section id="realisation" class="realisation">
+	<div class="text-center topMargin">
 		<h2>Mes réalisations</h2>
 		<p class="lead"> Le site wiclick ,mon role est résponsable de la maintenance du site </p>
 		<hr class="separator">
@@ -118,17 +122,14 @@
 		</div>
 	</div>
 </div>
-
-
-
 </section>
 
 
-<section class="contact">
+<section id="contact" class="contact">
 	<div class="container">
-		<h2 class="top text-center" >Me contactez</h2>
+		<h2 class=" text-center topMargin" >Me contactez</h2>
 		<hr class="separator">
-		<form action="" type="post" >
+		<form action="#" type="post" >
 			<div class="card bg-muted ">
 				<div class="card-header text-center">
 					<h4>Formulaire de contact</h4>
@@ -153,8 +154,8 @@
 </section>
 
 
-<section class="footer top ">
-	<h4>Copyright Antsa 2019</h4>
+<section class="footer topMargin ">
+	<h5>Copyright Antsa 2019</h5>
 	<p class="lead" >Mon portofolio</p>
 </section>
 
