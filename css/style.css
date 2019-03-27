@@ -36,7 +36,7 @@ margin-top: 20px;
     text-align: center;
     position: absolute;
     left: 0;
-    top:250px;
+    top:450px;
 }
 
 
@@ -71,9 +71,10 @@ background-color: brown;
 .footer
 {
     height: 80px;
-    color:#fff;
-    background-color: black;
+    color:black;
+    background-color: whitesmoke;
     text-align: center;
+    padding-top: 10px;
 }
 
 .slider-image{
